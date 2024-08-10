@@ -99,7 +99,7 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               {
-                "glob": "**/*",
+                "glob": "src/app/assets",
                 "input": "public"
               }
             ],
@@ -107,11 +107,7 @@
               "@angular/material/prebuilt-themes/azure-blue.css",
               "src/styles.scss"
             ],
-            "scripts": [],
-
-"assets":[
-  "src/app/assets"
-]
+            "scripts": []
 
           }
         }

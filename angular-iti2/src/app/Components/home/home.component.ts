@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 import { StoreData } from '../../ViewModels/store-data';
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  styleUrl: './home.component.scss',
+
 })
+
 export class HomeComponent {
 storeInfo: StoreData;
 constructor(){
