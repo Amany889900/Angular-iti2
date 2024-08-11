@@ -10,7 +10,11 @@ import { StoreData } from '../../ViewModels/store-data';
 
 export class HomeComponent {
 storeInfo: StoreData;
+isImageShown: boolean=true;
 constructor(){
   this.storeInfo= new StoreData('ITI Store', 'https://picsum.photos/350/200', ['Cairo','Alex','Qena']);
+}
+toggleImage(){
+  this.isImageShown=!this.isImageShown;
 }
 }

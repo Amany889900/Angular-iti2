@@ -9,19 +9,24 @@ import { FooterComponent } from './Components/footer/footer.component';
 import { SidebarComponent } from './Components/sidebar/sidebar.component';
 import { HomeComponent } from './Components/home/home.component';
 import { CommonModule } from '@angular/common';
-
+import { OrderComponent } from './Components/order/order.component';
+import { ProductListComponent } from './Components/Order/product-list/product-list.component';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
     SidebarComponent,
-    HomeComponent
+    HomeComponent,
+    OrderComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CommonModule
+    CommonModule,
+    FormsModule,
   ],
   providers: [
     provideClientHydration(),
